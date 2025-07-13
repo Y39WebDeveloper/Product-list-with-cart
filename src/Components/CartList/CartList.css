@@ -1,0 +1,26 @@
+.cart-list {
+display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    background-color: #FCF8F6;
+    border-radius: 8px;
+}
+.tag img{
+    width: 20px;
+    height: 20px;
+}

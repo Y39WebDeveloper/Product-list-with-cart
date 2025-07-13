@@ -1,0 +1,36 @@
+.modal-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-item:not(:last-child) {
+    border-bottom: 1px solid #F5EEEC;
+    padding-bottom: 16px;
+}
+
+.modal-item .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.modal-item .item img {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.modal-item .item .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal-item .item .details p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}

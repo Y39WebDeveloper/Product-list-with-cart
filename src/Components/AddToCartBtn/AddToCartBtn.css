@@ -1,0 +1,33 @@
+.add-to-cart-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
+    background-color: #f8f8f8;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #AD8A85;
+    border-radius: 64px;
+    width: 160px;
+    transition: .3s;
+    cursor: pointer;
+}
+.add-to-cart-btn:hover{
+    border-color: #C73B0F;
+}
+.add-to-cart-btn span{
+    transition: .3s;
+}
+.add-to-cart-btn:hover span{
+    color: #C73B0F;
+}
+.add-to-cart-btn img{
+    width: 20px;
+    height: 20px;
+}

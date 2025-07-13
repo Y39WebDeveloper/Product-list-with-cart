@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-img{
+    position: relative;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+.card-img.active{
+    border-color: #C73B0F;
+}
+.card-img img{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+.card-body{
+    margin-top: calc(16px + 23.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    justify-content: flex-start;
+}

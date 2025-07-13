@@ -1,0 +1,42 @@
+.counter{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color: #C73B0F;
+    color: #FFF;
+    border-radius: 64px;
+    width: 160px;
+}
+
+.counter .icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.counter .icon svg{
+    fill: #fff;
+    transition: .3s;
+}
+
+.counter .icon:hover{
+    background-color: #fff;
+}
+.counter .icon:hover svg{
+    fill: #C73B0F;
+}

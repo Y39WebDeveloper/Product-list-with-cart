@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Red Hat';
+    src: url("/src/assets/fonts/static/RedHatText-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Red Hat' sans-serif;
+    src: url("/src/assets/fonts/static/RedHatText-Medium.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Red Hat';
+    src: url("/src/assets/fonts/static/RedHatText-Bold.ttf");
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Red Hat', sans-serif;
+    color: #260F08;
+    background-color: #FCF8F6;
+}
+
+.txt-1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+.txt-2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0;
+}
+
+.txt-3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.txt-4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.txt-4-sbold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.txt-red {
+    color: #C73B0F;
+}
+
+.txt-rose {
+    color: #87635A;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 88px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 32px;
+}
+
+.desserts {
+    grid-column: 8 span;
+}
+
+
+.cart {
+    grid-column: 4 span;
+    border-radius: 12px;
+    height: fit-content;
+    background-color: #fff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+
+    .app {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .container{
+        margin: 0 24px;
+    }
+
+    .app {
+        padding: 24px 0;
+    }
+}
